@@ -1,4 +1,52 @@
 @use "../utils" as u;
+button{
+    -webkit-tap-highlight-color: transparent;
+}
+
+.menu-selection{
+    background-color: u.$color-2;
+    border-radius: 26px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: u.$color-4;
+
+    @include u.tablet-only{
+        font-size: 1.4rem;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    @include u.desktop-only{
+        cursor: pointer;
+        transition: all 0.4s;
+
+        &:hover{
+            background-color: u.$color-8;
+        }
+    }
+}
 
 .button-primary{
+    background-color: u.$color-1;
+    border-radius: 26px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: u.$color-4;
+
+    @include u.tablet-only{
+        font-size: 1.4rem;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    @include u.desktop-only{
+        cursor: pointer;
+        transition: all 0.4s;
+
+        &:hover{
+            background-color: lighten(u.$color-1, 20%);
+        }
+    }
 }
