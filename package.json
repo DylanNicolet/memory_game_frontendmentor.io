@@ -1,0 +1,38 @@
+{
+  "name": "memory_game_frontendmentor.io",
+  "version": "1.0.0",
+  "description": "A memory game challenge completed in React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot --open",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanNicolet/memory_game_frontendmentor.io"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@reduxjs/toolkit": "^1.9.3",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "bugs": {
+    "url": "https://github.com/DylanNicolet/memory_game_frontendmentor.io/issues"
+  },
+  "homepage": "https://github.com/DylanNicolet/memory_game_frontendmentor.io#readme"
+}

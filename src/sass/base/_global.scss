@@ -1,0 +1,29 @@
+@use "../utils" as u;
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    background-color: u.$color-background;
+    color: u.$color-primary;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+p, h1, h2, h3, h4{
+    cursor: default;
+}
